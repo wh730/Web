@@ -1,0 +1,21 @@
+default:
+  base_url: "https://test.example.com"
+  browser: "chromium"
+  timeout_ms: 10000
+  navigation_timeout_ms: 20000
+  headless: true
+  retries: 1
+test:
+  base_url: "https://test.example.com"
+  browser: "chromium"
+  timeout_ms: 10000
+  navigation_timeout_ms: 20000
+  headless: true
+  retries: 1
+staging:
+  base_url: "https://staging.example.com"
+  browser: "chromium"
+  timeout_ms: 10000
+  navigation_timeout_ms: 20000
+  headless: true
+  retries: 1
